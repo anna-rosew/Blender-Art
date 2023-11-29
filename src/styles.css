@@ -1,15 +1,65 @@
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
 h1 {
   font-family: "DM Serif Display", serif;
   font-size: 128px;
+  line-height: 1.5px;
   font-weight: 400;
   text-align: center;
+  margin: none;
 }
 
 h2 {
   font-family: "Roboto", sans-serif;
-  font-size: 47px;
-  font-weight: 400px;
-  line-height: 60px;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.5px;
   letter-spacing: 0em;
   text-align: center;
+  margin: none;
+}
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.5px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../imgs/example.png");
+  background-repeat: none;
+  background-size: cover;
+  text-align: centre;
+  color: white;
+  padding: 260px;
+}
+
+header a {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5px;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-top: 32px;
+  display: inline-block;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  padding: 16px 32px;
+  text-transform: capitalize;
 }
