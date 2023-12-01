@@ -7,10 +7,21 @@ body {
   background-color: #23213c;
 }
 
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../imgs/example.png");
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  text-align: centre;
+  color: white;
+  padding: 200px 0;
+}
+
 h1 {
   font-family: "DM Serif Display", serif;
   font-size: 128px;
-  line-height: 1px;
+  line-height: 1;
   font-weight: 400;
   text-align: center;
   margin: 30px 0px;
@@ -20,37 +31,27 @@ h2 {
   font-family: "Roboto", sans-serif;
   font-size: 40px;
   font-weight: 400;
-  line-height: 1.5px;
+  line-height: 1;
   letter-spacing: 0em;
   text-align: center;
-  margin: none;
-  padding: 10px;
+  margin: 0;
 }
 h3 {
   font-family: "Roboto", sans-serif;
   font-size: 24px;
   font-weight: 900;
-  line-height: 1.5px;
+  line-height: 1;
   letter-spacing: 5px;
   text-align: center;
+  margin: 0;
 }
 p {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5px;
+  line-height: 2;
   letter-spacing: 0px;
   text-align: left;
-}
-
-header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../imgs/example.png");
-  background-repeat: none;
-  background-size: cover;
-  text-align: centre;
-  color: white;
-  padding: 200px;
 }
 
 header a {
@@ -62,7 +63,7 @@ header a {
   color: #272044;
   padding: 16px 32px;
   display: block;
-  margin: 0 auto;
+  margin: 30px auto;
   max-width: 150px;
   letter-spacing: 3px;
   text-decoration: none;
@@ -70,15 +71,41 @@ header a {
   background: white;
 }
 
+footer p {
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
 @media (max-width: 800px) {
+  header {
+    padding: 60px 0;
+  }
   h1 {
     font-size: 48px;
   }
 
-  h {
+  h2 {
     font-size: 20px;
   }
   h3 {
     font-size: 12px;
+  }
+
+  header a {
+    font-size: 12px;
+    padding: 8px 16px;
+    line-height: 1;
+    text-align: center;
+    padding: 9px 4px;
+    display: block;
+    margin: 20px auto;
+    max-width: 150px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: white;
   }
 }
