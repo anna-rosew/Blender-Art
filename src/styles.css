@@ -3,13 +3,17 @@
   margin: 0 auto;
 }
 
+body {
+  background-color: #23213c;
+}
+
 h1 {
   font-family: "DM Serif Display", serif;
   font-size: 128px;
-  line-height: 1.5px;
+  line-height: 1px;
   font-weight: 400;
   text-align: center;
-  margin: none;
+  margin: 30px 0px;
 }
 
 h2 {
@@ -20,6 +24,7 @@ h2 {
   letter-spacing: 0em;
   text-align: center;
   margin: none;
+  padding: 10px;
 }
 h3 {
   font-family: "Roboto", sans-serif;
@@ -45,21 +50,35 @@ header {
   background-size: cover;
   text-align: centre;
   color: white;
-  padding: 260px;
+  padding: 200px;
 }
 
 header a {
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5px;
-  letter-spacing: 3px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
   text-align: center;
-  margin-top: 32px;
-  display: inline-block;
-  background-color: white;
-  color: black;
-  text-decoration: none;
+  color: #272044;
   padding: 16px 32px;
-  text-transform: capitalize;
+  display: block;
+  margin: 0 auto;
+  max-width: 150px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: white;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 12px;
+  }
 }
