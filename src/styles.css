@@ -20,6 +20,47 @@
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+.text-center {
+  text-align: center;
+  margin: 20px auto;
+}
+.card {
+  background: white;
+  margin: 30px 0;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.card-footer {
+  padding: 0;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-top: 40px;
+  padding: 16px;
+  background-color: #462cb3;
+  text-decoration: none;
+}
+.img-responsive {
+  max-width: 100%;
+}
+
 section {
   max-width: 100%;
   margin: 0 auto;
@@ -96,6 +137,28 @@ h4 {
   text-transform: uppercase;
 }
 
+h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  margin: 1;
+  line-height: 1;
+  color: #272044;
+}
+
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+  display: block;
+  max-width: 150px;
+  text-decoration: none;
+}
+
 header a {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -111,39 +174,6 @@ header a {
   text-decoration: none;
   text-transform: uppercase;
   background: white;
-}
-
-.text-center {
-  text-align: center;
-}
-.card {
-  background: white;
-  margin: 30px 0;
-}
-
-.card-body {
-  padding: 30px;
-}
-
-.card-footer {
-  padding: 0 30px 30px;
-}
-
-.btn {
-  display: block;
-  color: white;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 21px;
-  text-align: center;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  padding: 16px;
-  background-color: #462cb3;
-  text-decoration: none;
-}
-.img-responsive {
-  max-width: 100%;
 }
 
 main {
@@ -221,11 +251,23 @@ footer li {
     font-size: 48px;
   }
 
+  main h1 {
+    font-size: 24px;
+  }
+
   h2 {
     font-size: 20px;
   }
   h3 {
     font-size: 12px;
+  }
+
+  h6 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 13px;
   }
 
   header a {
